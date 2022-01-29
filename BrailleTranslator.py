@@ -1,6 +1,6 @@
+# This is a level 1 challenge from Google foobar
 # Braille translator which can handle less than 50 characters
 # The translator can only translate alphabets, spaces and capitalization
-# This is a level 1 challenge from Google foobar
 
 braille_translator = {
     "a": "100000",
