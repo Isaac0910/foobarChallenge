@@ -8,14 +8,12 @@ list2 = [["1", "0", "0"],
 
 print(list2[1][1])
 
-x = "."
-print(x.isnumeric())
-for y in range(3):
-    x += x
+str1 = "1.1.2"
+list3 = str1.split(".")
+print(list3)
+print(str1.count("."))
 
-print(x)
-print(len(x))
-
-a = "asdf"
-for c in a:
-    print(c)
+str = str(1) + "." + str(None)
+print(str)
+list2 = "1"
+print(list2)
