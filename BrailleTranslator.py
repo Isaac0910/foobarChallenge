@@ -45,6 +45,7 @@ def is_validate_text(text):
         return False
     return True
 
+
 def solution(text):
     if is_validate_text(text):
         output = ""
@@ -57,6 +58,6 @@ def solution(text):
         return False
 
 
-input = input("Input: ")
+input1 = input("Input: ")
 print("Output: ")
-print(solution(input))
+print(solution(input1))

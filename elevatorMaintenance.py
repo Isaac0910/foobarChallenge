@@ -24,10 +24,10 @@ list3 = ["11.12.04",
          "1.1.1"]
 
 
-def sort_elevator_version(list):
+def sort_elevator_version(l):
     new_list = []
     version = []
-    for item in list:
+    for item in l:
         version = item.split(".")
         x = len(version)
         for i in range(x):
