@@ -19,8 +19,9 @@ If the algorithm reaches a constant, such as 0, then the length is 1.
 '''
 
 
-def sort_num(n):
-    y = sorted(n)
+def sort_num(z):
+    y = sorted(z)
+    # use x = y[:] in py2
     x = y.copy()
     x.reverse()
     x = int(''.join(x))
